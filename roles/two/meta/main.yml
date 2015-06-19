@@ -1,0 +1,3 @@
+---
+dependencies:
+  - { role: one, when: dependant }

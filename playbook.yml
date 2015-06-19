@@ -1,0 +1,7 @@
+---
+- hosts: all
+  vars:
+    dependant: false
+  roles:
+    - two
+    - one

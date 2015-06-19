@@ -1,0 +1,9 @@
+---
+- name: create bar file
+  file:
+    path: ~/bar
+    state: touch
+- name: echo foo to bar file
+  command: echo 'foo from task' >> ~/bar
+  notify:
+    handle this
